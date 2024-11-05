@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript </title>
+
+</head>
+
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+<script>
+    // function declaretio
+    // parameter
+    function add(x,y)// function with 2 perameter
+       { var sum;
+        sum=x+y;
+        return sum;
+    }
+    function display (){
+        document.getElementById("demo1").innerHTML="fahim";
+    }
+    function calculation(num1,num2,num3)
+    {
+var result1;
+result1=num1*num2*num3;
+return result1;
+    }
+    function triangle ()
+    {
+        var height,base;
+        height=100;
+        base=50;
+        var area= 0.5 *base*height;
+        document.getElementById("demo4"),innerHTML=area
+    }
+    // function call
+    triangle();
+    display();
+    var a=calculation(20,30,100);
+    var  result=add(100,50);//function call,argument
+    document.getElementById("demo2").innerHTML=result;
+    document.getElementById("demo3").innerHTML = a;
+</script>
+
+</body>
+
+</html>
